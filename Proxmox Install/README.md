@@ -23,13 +23,29 @@ Proxmox will be the hypervisor for this home server. This OS will help to run al
 1. Open the Proxmox website and navigate to the downloads
 2. Under "Latest Releases", select the "Proxmox VE ISO Installer". This will download the ISO file for us to flash onto the portable drive later.
 
+| Proxmox Downloads Page                                              |
+| ----------------------------------------------|
+| ![](./Screenshots/Screenshot%202025-08-27%20at%203.40.30 pm.png)                 						|
 
 
 ## Flashing the Portable Drive
 
 1. Open the program for creating bootable drives, since I am using MacOS that would be BalenaEtcher
+
+| BalenaEtcher Utility                                             |
+| ----------------------------------------------|
+| ![](./Screenshots/Screenshot%202025-08-27%20at%203.40.51 pm.png)                 						|
 2. Select the ISO file and the target flash drive
+
+| Selecting file and target                                              |
+| ----------------------------------------------|
+| ![](./Screenshots/Screenshot%202025-08-27%20at%203.42.29 pm.png)                 						|
+
 ```
 Be careful what you choose as your target drive as the selected drive will be completely wiped!
 ```
 3. Select "Flash" and wait for the for drive to be formatted
+
+| Flash drive reformatting completed                                             |
+| ----------------------------------------------|
+| ![](./Screenshots/Screenshot%202025-08-27%20at%203.45.55 pm.png)                 						|
